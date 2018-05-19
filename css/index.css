@@ -1,0 +1,195 @@
+h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #555;
+}
+
+a {
+    color: #555;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 575.98px) { 
+    body, a {
+        font-size: 0.8rem;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    .container{
+        width: 95%;
+    }
+
+}
+
+
+/* main-menu */
+#main-menu {
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    margin-bottom: 15px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.nav-link {
+    color: #888;
+    padding: .5rem .5rem;
+}
+
+.nav-active {
+    color: #4d3126;
+    background-color: #eaeaea;
+}
+
+.nav-important {
+    color: #8b2a30;
+}
+
+#main-menu a:hover{
+    color: #4d3126;
+    background-color: #eaeaea;
+}
+
+
+/* main-content */
+#main-content {
+    padding-bottom: 100px;
+}
+
+/* bread */
+
+#bread {
+    color: #ccc;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ccc;
+}
+
+#bread a{
+    color: #ccc;
+}
+
+.breadcrumb {
+    background: #fff;
+}
+
+
+/* product information */
+
+
+#product-info .row{
+    border-bottom: 1px solid #eee;
+}
+
+.price {
+    color: #d63333;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.original-price {
+    color: #888;
+    font-size: 1.1rem;
+    text-decoration: line-through;
+}
+
+#item-color img {
+    width: 30px;
+    height: 30px;
+}
+
+#size-option a {
+    display: inline-block;
+    text-align: center;
+    width: 3rem;
+    padding: 5px;
+    margin: 8px 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #888;
+}
+
+#item-amount input {
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 3rem;
+}
+
+#item-amount button {
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+#item-amount button:hover {
+    color: inherit;
+    background: #fff;
+}
+
+.btn-normal {
+    background-color: #b58f6b;
+    color: #fff;
+    padding: 0.5rem 2rem; 
+}
+
+/* product detail */
+
+#product-detail .row{
+    border-bottom: 1px solid #eee;
+}
+
+#product-detail-nav {
+    color: #aaa;
+    text-align: center;
+}
+
+#product-detail-nav div:nth-child(2) {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/* product-detail-img */
+#product-intro img {
+    margin-bottom: 10px;
+}
+
+
+/* back-to-top button */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 5rem; /* Place the button at the bottom of the page */
+    right: 49%; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    opacity: 0.5;
+    background-color: #aaa; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 3px 2px 2px 2px; /* Some padding */
+    -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* bottom-navbar */
+#bottom-navbar {
+    background-color: #eaeaea;
+}
+
+#bottom-navbar a:hover{
+    color: #333;
+}
